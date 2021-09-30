@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* color: white; */
+  box-sizing: border-box;
+}
+
+#main {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(
+    225deg,
+    #9cb66e 0,
+    #91b873 5%,
+    #86ba7a 10%,
+    #7bbc81 15%,
+    #70bd89 20%,
+    #64be92 25%,
+    #57bf9b 30%,
+    #49c0a4 35%,
+    #3ac0ad 40%,
+    #28c0b7 45%,
+    #10c0c0 50%,
+    #00c0c9 55%,
+    #00bfd1 60%,
+    #00bed9 65%,
+    #00bde0 70%,
+    #14bbe6 75%,
+    #2ebaeb 80%,
+    #43b8f0 85%,
+    #56b5f3 90%,
+    #67b3f4 95%,
+    #78b0f5 100%
+  );
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
